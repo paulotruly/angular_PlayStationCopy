@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header_li{
+    @apply px-4 py-1 font-semibold rounded-full text-[17px] hover:bg-gray-100 transition-colors duration-500 ease-in-out;
+}
