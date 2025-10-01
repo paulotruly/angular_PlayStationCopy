@@ -1,5 +1,5 @@
 {
-  "name": "simple-blog",
+  "name": "playstation-store",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:simple-blog": "node dist/simple-blog/server/server.mjs"
+    "serve:ssr:playstation-store": "node dist/playstation-store/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
