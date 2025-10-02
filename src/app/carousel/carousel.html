@@ -1,12 +1,25 @@
-<div class="mx-20 h-20">
-    <h3 class="text-[25px] font-light pb-3 bg-red-200"> 10 melhores jogos no seu país </h3>
-    <div class="flex flex-row gap-3">
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
-        <app-gamecard></app-gamecard>
+<div class="relative mx-20 h-auto overflow-hidden bg-yellow-400">
+    <h3 class="text-[25px] font-light pb-3"> 10 melhores jogos no seu país </h3>
+    
+    <div class="flex flex-row gap-3 overflow-x-auto flex-nowrap" (scroll)="checkScrollPosition()" #roll>
+        @for (jogo of jogoscarrossel.slice(0, 12); track jogo.nome) {
+            <app-gamecard [jogo]="jogo"></app-gamecard>
+        }
+
     </div>
+
+    @if (!noFinal) {
+        <button class="absolute w-14 h-14 rounded-full text-[25px] bg-blue-600 hover:bg-blue-800 text-white top-1/3 right-5"
+        (click)="scrollRight()">
+            >
+        </button>
+    }
+
+    @if (!noComeco) {
+        <button class="absolute w-14 h-14 rounded-full text-[25px] bg-blue-600 hover:bg-blue-800 text-white top-1/3 left-5"
+        (click)="scrollLeft()">
+            <
+        </button>      
+    }
+
 </div>

@@ -40,5 +40,47 @@
     "preco": 249.50,
     "desconto50": false,
     "desconto10": false
+  },
+  {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/214/988/a768071e-1049-4d94-81c6-f3089f0d4eef.jpg?w=620&thumb=false",
+    "nome": "EA SPORTS™ College Football 26",
+    "preco": 349.00,
+    "desconto50": false,
+    "desconto10": false
+  },
+   {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/175/034/e1e3a5c9-f220-4154-9969-8d375efc6453.jpg?w=620&thumb=false",
+    "nome": "Grand Theft Auto Online (PlayStation®5)",
+    "preco": 99.90,
+    "desconto50": false,
+    "desconto10": false
+  },
+  {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/216/823/4acb28cc-560a-4a05-a81f-d8f409ac0267.jpg?w=620&thumb=false",
+    "nome": "NBA 2K26 para PS5®",
+    "preco": 399.90,
+    "desconto50": false,
+    "desconto10": false
+  },
+  {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/209/727/33ef2835-86f5-431b-8544-f900310e1755.jpg?w=620&thumb=false",
+    "nome": "F1® 25",
+    "preco": 349.90,
+    "desconto50": false,
+    "desconto10": false
+  },
+  {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/214/993/b367d981-6e76-4c29-a8f8-908039776382.jpg?w=620&thumb=false",
+    "nome": "MLB® The Show™ 25",
+    "preco": 284.90,
+    "desconto50": false,
+    "desconto10": false
+  },
+  {
+    "imagem": "https://image.api.playstation.com/pr/bam-art/214/993/ee65a516-1a71-45df-94f1-ec4dd806213d.jpg?w=620&thumb=false",
+    "nome": "Clair Obscur: Expedition 33",
+    "preco": 249.50,
+    "desconto50": false,
+    "desconto10": false
   }
 ]

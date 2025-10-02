@@ -1,16 +1,16 @@
-<div class="inline-block bg-yellow-100">
+<div class="inline-block">
 
     <div class="w-[220px] h-[220px] group relative m-1 overflow-hidden">
         <img
         class="object-cover rounded-md"
-        src="https://image.api.playstation.com/vulcan/ap/rnd/202505/3100/ef79f649e45961a7e6342ebf26bc827b8b9603d69b2fdb5c.png?w=440&thumb=false" alt="">
+        [src]="jogo.imagem" [alt]="'Capa do jogo' + jogo.nome">
 
         <div class="hidden group-hover:block absolute inset-0 bg-opacity-10 bg-black"></div>
     </div>
 
-    <div class="m-1 bg-purple-400">
-        <p class="text-lg font-normal text-black"> Fortnite </p>
-        <p class="text-md font-normal text-gray-600"> Gratuito </p>
+    <div class="m-1">
+        <p class="text-lg font-normal text-black"> {{jogo.nome}} </p>
+        <p class="text-md font-normal text-gray-600 before:content-['R$']"> {{jogo.preco}} </p>
     </div>
 
 </div>
