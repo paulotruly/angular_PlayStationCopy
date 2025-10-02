@@ -5,3 +5,20 @@
 .header_li{
     @apply px-4 py-1 font-semibold rounded-full text-[17px] hover:bg-gray-100 transition-colors duration-500 ease-in-out;
 }
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox */
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+
+  /* IE and Edge */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+  }
+}
